@@ -20,10 +20,45 @@
             font-family: "Roboto", sans-serif;
         }
 
+        /* ==hero== */
+
         .hero_section_boxes {
             display: grid;
             gap: 24px;
         }
+
+        .grid_item1 {
+            grid-column: 1/2;
+        }
+
+        .grid_item2 {
+            grid-column: 2/2;
+        }
+
+        /* ==medical index== */
+        .software_section {
+            display: grid;
+            gap: 14px;
+        }
+
+        .software_card1 {
+            grid-column: 1/2;
+            grid-row: 1/1;
+            margin: auto;
+        }
+
+        .software_card2 {
+            grid-column: 2/3;
+            grid-row: 1/1;
+            margin: auto;
+        }
+
+        .software_card3 {
+            grid-column: 3/3;
+            grid-row: 1/1;
+            margin: auto;
+        }
+
 
         @media (max-width:576px) {
             .hero_section_boxes {
@@ -347,11 +382,11 @@
                                                         <td>
                                                             <img src="https://i.postimg.cc/hG8XfGz4/capsual-icon.png"
                                                                 alt="medicine"
-                                                                style="width: 34px; padding-left: 14px; padding-top: 14px; padding-bottom: 14px;">
+                                                                style="max-width:34px; padding-left: 14px; padding-top: 14px; padding-bottom: 14px;">
                                                         </td>
                                                         <td>
                                                             <p
-                                                                style="font-size: 14px; font-weight: 400; line-height: 117%; color: black; opacity: 80%;  padding-top: 23px; padding-bottom: 23px; padding-left: 14px; padding-right: 194px;">
+                                                                style="font-size: 14px; font-weight: 400; line-height: 117%; color: black; opacity: 80%;  padding-top: 14px; padding-bottom: 14px; padding-left: 14px; padding-right: 194px;">
                                                                 Track symptoms and medications with ease</p>
                                                         </td>
                                             </td>
