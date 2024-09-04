@@ -12,7 +12,6 @@
         * {
             margin: 0;
             padding: 0;
-
             text-decoration: none;
         }
 
@@ -21,9 +20,8 @@
         }
 
         /* ==hero== */
-
         .hero_section_boxes {
-            display: inline-grid;
+            display: grid;
             gap: 24px;
         }
 
@@ -121,8 +119,8 @@
                 margin: auto;
             }
         }
-        /* patients branch */
 
+        /* patients branch */
         @media (max-width:649px) {
             .d-none {
                 display: none !important;
@@ -148,32 +146,39 @@
                 margin-left: auto !important;
                 margin-right: auto !important;
             }
+
             .text-center {
                 text-align: center !important;
             }
         }
+
         /* paitents branch-over */
         @media (max-width:768px) {
             .hero_section_boxes {
                 display: grid;
                 gap: 24px;
             }
+
             .grid_item1 {
                 grid-column: 1/2;
             }
+
             .grid_item2 {
                 grid-column: 2/2;
             }
+
             /* ==medical.html== */
             .software_section {
                 display: grid;
                 gap: 14px;
             }
+
             .software_card1 {
                 grid-column: 1/2;
                 grid-row: 1/1;
                 margin: auto;
             }
+
             .software_card2 {
                 grid-column: 2/3;
                 grid-row: 1/1;
@@ -188,7 +193,6 @@
         }
 
         /* patients branch */
-
         @media (max-width:649px) {
             .d-none {
                 display: none !important;
@@ -219,6 +223,7 @@
                 text-align: center !important;
             }
         }
+
         /* paitents branch-over */
         @media (max-width:568px) {
 
@@ -230,8 +235,7 @@
             }
 
             .hero_section_boxes {
-                display: inline-grid;
-
+                display: grid;
             }
 
             .hero_section_text {
@@ -280,6 +284,18 @@
                 grid-row: 3/3;
             }
 
+            .max_w_225 {
+                max-width: 225px !important;
+            }
+
+            .max_w_340 {
+                max-width: 340px !important;
+            }
+
+            .max_w_350 {
+                max-width: 350px !important;
+            }
+
             /* ==============footer=============== */
             .padding_top_30 {
                 padding-top: 30px !important;
@@ -305,7 +321,7 @@
     <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; background-color: #E4E4E4;padding: 6px;">
         <tbody>
             <tr>
-                <td cellpadding="0" cellspacing="0" border="0" style="width: 100%; padding: 100px 0;" class="py_40">
+                <td cellpadding="0" cellspacing="0" border="0" style="width: 100%; padding: 90px 0;" class="py_40">
                     <table cellpadding="0" cellspacing="0" border="0"
                         style="width: 100%; max-width: 650px; margin: 0 auto; background-color: white;">
                         <tbody>
@@ -340,7 +356,6 @@
                                     </table>
                                 </td>
                             </tr>
-
                             <tr>
                                 <td style="text-align: center;">
                                     <p style="font-size: 16px; font-weight: 500; line-height: 130%; padding-top: 30px;">
@@ -377,7 +392,7 @@
                                                         <td>
                                                             <img src="https://i.postimg.cc/hG8XfGz4/capsual-icon.png"
                                                                 alt="medicine"
-                                                                style="width: 34px; padding-left: 14px; padding-top: 13px; padding-bottom: 10px;">
+                                                                style="width: 34px; padding-left: 14px; padding-top: 10px; padding-bottom: 10px;">
                                                         </td>
                                                         <td>
                                                             <p
@@ -395,11 +410,11 @@
                                             <td>
                                             <td>
                                                 <img src="https://i.postimg.cc/7Lh69Nbc/kit-icon.png" alt="medi-kit"
-                                                    style="width: 34px; padding-left: 14px; padding-top: 13px; padding-bottom: 10px;">
+                                                    style="width: 34px; padding-left: 14px; padding-top: 10px; padding-bottom: 10px;">
                                             </td>
                                             <td>
                                                 <p
-                                                    style="font-size: 14px; font-weight: 400; line-height: 117%; color: black; opacity: 80%;  padding-top: 23px; padding-bottom: 23px; padding-left: 14px; padding-right: 251px;">
+                                                    style="font-size: 14px; font-weight: 400; line-height: 117%; color: black; opacity: 80%;  padding-top: 20px; padding-bottom: 20px; padding-left: 14px; padding-right: 251px;">
                                                     Store vital medical records securely</p>
                                             </td>
                                 </td>
@@ -413,16 +428,15 @@
                             <td>
                             <td>
                                 <img src="https://i.postimg.cc/BbB18chv/appointment-icon.png" alt="appointments"
-                                    style="width: 34px; padding-left: 14px; padding-top: 13px; padding-bottom: 10px;">
+                                    style="width: 34px; padding-left: 14px; padding-top: 10px; padding-bottom: 10px;">
                             </td>
                             <td>
                                 <p
-                                    style="font-size: 14px; font-weight: 400; line-height: 117%; color: black; opacity: 80%;  padding-top: 23px; padding-bottom: 23px; padding-left: 14px; padding-right: 178px;">
+                                    style="font-size: 14px; font-weight: 400; line-height: 117%; color: black; opacity: 80%;  padding-top: 20px; padding-bottom: 20px; padding-left: 14px; padding-right: 178px;">
                                     Set reminders for appointments and screenings</p>
                             </td>
                 </td>
             </tr>
-
     </table>
     <tr>
         <td>
@@ -432,18 +446,16 @@
                     <td>
                     <td>
                         <img src="https://i.postimg.cc/k40gn6qg/health-icon.png" alt="health"
-                            style="width: 34px; padding-left: 14px; padding-top: 13px; padding-bottom: 10px;">
+                            style="width: 34px; padding-left: 14px; padding-top: 10px; padding-bottom: 10px;">
                     </td>
                     <td>
                         <p
-                            style="font-size: 14px; font-weight: 400; line-height: 117%; color: black; opacity: 80%;  padding-top: 23px; padding-bottom: 23px; padding-left: 14px; padding-right: 58px;">
+                            style="font-size: 14px; font-weight: 400; line-height: 117%; color: black; opacity: 80%;  padding-top: 20px; padding-bottom: 20px; padding-left: 14px; padding-right: 58px;">
                             Share health information seamlessly with their healthcare providers</p>
                     </td>
         </td>
     </tr>
-
     </table>
-
     </td>
     </tr>
     <tr>
@@ -451,7 +463,7 @@
             <table
                 style="max-width: 530px; margin-left: auto; margin-right: auto;   margin-top: 22px; margin-bottom: 30px;">
                 <tr class="hero_section_boxes">
-                    <td class="grid_item1" style="padding: 12px; background: #EBF9FD;
+                    <td class="grid_item1" style="padding: 12px 10px; background: #EBF9FD;
  border-radius: 10px; ">
                         <p style="
 font-size: 16px;
@@ -486,7 +498,6 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                     </td>
                 </tr>
             </table>
-
         </td>
     </tr>
     </td>
@@ -495,7 +506,6 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
     </tr>
     </td>
     </tr>
-
     </table>
     </td>
     </tr>
@@ -532,7 +542,6 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                     color: #ffffff;
                                     "> GP, Author and CEO of Modern Innovations Pty Ltd</p>
                                         </td>
-
                                     </tr>
                                 </table>
                                 <table style="width: 100%;">
@@ -559,7 +568,6 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                 font-weight: 500;
                                 line-height: 130%;
                                 text-align: left;
-
                                 margin-bottom: 8px;
                                 color: #3F559E;
                                 ">Over 45% of Patient Concerns</p>
@@ -570,7 +578,6 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                 text-align: left;
                                 color: #000000;
                                 margin-bottom: 8px;
-                            
                                 ">are never disclosed or discussed with their healthcare practitioners*</p>
                                             <p class="text-center" style="font-family: Roboto;
                                 font-size: 14px;
@@ -607,7 +614,6 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                 text-align: left;
                                 color: #000000;
                                 margin-bottom: 8px;
-                            
                                 ">People forget symptoms, medical concerns, health events, treatments and more.</p>
                                             <p class="text-center" style="font-family: Roboto;
                                 font-size: 14px;
@@ -646,14 +652,12 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                 text-align: left;
                                 color: #000000;
                                 margin-bottom: 8px;
-                            
                                 ">When people have active input into their clinical care, there is higher engagement,
                                                 fewer follow-up failures, and more patient accountability as they feel
                                                 part
                                                 of
                                                 the
                                                 solution, not just passive followers of instructions.</p>
-
                                         </td>
                                     </tr>
                                 </table>
@@ -669,7 +673,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
         <tbody>
             <tr>
                 <td>
-                    <table style="background-color: #3F559E; width: 100%; padding-top: 50px; padding-bottom: 50px;">
+                    <table style="background-color: #3F559E; width: 100%; padding-top: 47px; padding-bottom:48px;">
                         <tr>
                             <td>
                                 <table style="width: 100%;">
@@ -693,8 +697,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                                 for non-medical Individuals and families so they can
                                                 keep, track,
                                                 and produce
-                                                vital health information anywhere anytime.
-                                            </p>
+                                                vital health information anywhere anytime.</p>
                                         </td>
                                     </tr>
                                 </table>
@@ -707,7 +710,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                         <td>
                                             <p style="color: white; padding-left: 12px;">Health Summary
                                             </p>
-                                            <p
+                                            <p class="max_w_225"
                                                 style=" padding-top: 8px; max-width: 253px; margin: auto; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%;">
                                                 So your patients are
                                                 always prepared for
@@ -716,7 +719,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                         </td>
                                         <td style="padding-right: 12px;">
                                             <p style="color: white; padding-left: 11px;">Mednotes</p>
-                                            <p
+                                            <p class="max_w_225"
                                                 style="padding-top: 8px; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%; max-width: 253px; margin: auto;">
                                                 So your patients can create their brief notes on
                                                 treatments,
@@ -745,7 +748,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                     <tr>
                                         <td>
                                             <p style="color: white; padding-left: 12px;">Diary</p>
-                                            <p
+                                            <p class="max_w_225"
                                                 style=" padding-top: 8px; max-width: 253px; margin: auto; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%;">
                                                 So your patients can log, track and report symptoms,
                                                 pain, blood
@@ -753,7 +756,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                         </td>
                                         <td style="padding-right: 12px;">
                                             <p style="color: white; padding-left: 11px;">Documents</p>
-                                            <p
+                                            <p class="max_w_225"
                                                 style="padding-top: 8px; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%; max-width: 253px; margin: auto;">
                                                 So your patients can keep important test results,
                                                 reports, ECGs,
@@ -768,7 +771,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                 <table style="width: 100%;">
                                     <tr>
                                         <td style="padding-top: 37px;">
-                                            <p
+                                            <p class="max_w_350"
                                                 style="max-width: 491px; margin: 0 auto; color: white; border: 1px solid #FFFFFF29;padding: 16px 19px 16px 20px; text-align: center; font-size: 14px; font-weight: 400;line-height: 150%; border-radius: 10px;">
                                                 *Stewart MA.
                                                 Effective
@@ -779,12 +782,15 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                     </tr>
                                     <tr>
                                         <td style="padding-top: 16px;">
-                                            <p
-                                                style="max-width: 474px; margin: 0 auto; color: white; border: 1px solid #FFFFFF29;padding: 16px 27px 16px 29px; text-align: center; font-size: 14px; font-weight: 400;line-height: 150%; border-radius: 10px;">
+                                            <p class="max_w_340"
+                                                style="max-width: 474px; margin: 0 auto; color: #D9DDEC; border: 1px solid #FFFFFF29;padding: 16px 27px 16px 29px; text-align: center; font-size: 14px; font-weight: 400;line-height: 150%; border-radius: 10px;">
                                                 If you are interested in having an educational session
                                                 on the CDMpal
                                                 app and its use in your clinical care, please contact
-                                                admin@cdmpal.com.au or Dan@moderninnovations.com.au </p>
+                                                <span style=" color: white;">
+                                                    admin@cdmpal.com.au</span>
+                                                or
+                                                <span style=" color: white;">Dan@moderninnovations.com.au</span> </p>
                                         </td>
                                     </tr>
                                 </table>
@@ -795,7 +801,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
             </tr>
             <tr>
                 <td>
-                    <table style="width: 100%; padding-top: 70px; padding-bottom: 70px; ">
+                    <table style="width: 100%; padding-top: 65px; padding-bottom: 70px; ">
                         <tr>
                             <td>
                                 <table style="width: 100%;">
@@ -839,7 +845,6 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                             <p
                                                 style="font-weight: 400; font-size: 14px; line-height: 150%; max-width: 147px;">
                                                 CDMpal for paediatrics, rheumatology and neurology care
-
                                                 <span style="font-weight: 500; display: block;"> Monitor
                                                     progress
                                                     easily</span>
@@ -847,7 +852,6 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                         </td>
                                     </tr>
                                 </table>
-
                             </td>
                         </tr>
                         <tr>
@@ -871,7 +875,6 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                 <td>
                     <table class="table_max_width padding_20"
                         style=" max-width: 650px; margin-left: auto; margin-right: auto; padding: 50px; width: 100%; background: #3CC0EC; color: white;">
-
                         <tr>
                             <td>
                                 <p class="font_24_600" style="margin-bottom: 20px;">FAQs</p>
@@ -925,7 +928,6 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                         </tr>
                         <tr>
                             <td style="background: #E5E5E5; height: 1px; width: 100%;">
-
                             </td>
                         </tr>
                         <tr>
@@ -944,4 +946,5 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
     </tbody>
     </table>
 </body>
+
 </html>
