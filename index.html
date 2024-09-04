@@ -239,9 +239,19 @@
         @media (max-width:568px) {
 
             /* hero */
+            .hero_section_heading {
+                padding-left: 16px !important;
+                padding-top: 12px !important;
+                padding-bottom: 21px !important;
+            }
+
             .hero_section_boxes {
                 display: grid;
 
+            }
+
+            .hero_section_text {
+                max-width: 405px !important;
             }
 
             .grid_item1 {
@@ -286,6 +296,19 @@
                 grid-row: 3/3;
             }
 
+            .max_w_225 {
+                max-width: 225px !important;
+            }
+
+            .max_w_340 {
+                max-width: 340px !important;
+            }
+
+            .max_w_350 {
+                max-width: 350px !important;
+            }
+
+
             /* ==============footer=============== */
             .padding_top_30 {
                 padding-top: 30px !important;
@@ -321,8 +344,8 @@
                                     <table style="width: 100%;">
                                         <tr>
                                             <td style="text-align: center;">
-                                                <img src="https://i.postimg.cc/141SGm6J/logo.png" alt="logo"
-                                                    style="max-width: 175px; padding-top: 16px; padding-bottom: 16px;">
+                                                <a href=""><img src="https://i.postimg.cc/141SGm6J/logo.png" alt="logo"
+                                                        style="max-width: 175px; padding-top: 16px; padding-bottom: 16px;"></a>
                                             </td>
                                         </tr>
                                     </table>
@@ -335,7 +358,7 @@
                                         <tr>
                                             <td class="hero_section_heading"
                                                 style="padding-left: 37px; padding-top: 71px; padding-bottom: 71px;">
-                                                <p
+                                                <p class=""
                                                     style="font-weight: 700; font-size: 24px; line-height: 140%; max-width: 266px; color: white; ">
                                                     Introducing CDMpal For Better Patient Practitioner Interactions</p>
                                             </td>
@@ -352,7 +375,7 @@
                                 <td style="text-align: center;">
                                     <p style="font-size: 16px; font-weight: 500; line-height: 130%; padding-top: 30px;">
                                         Dear Colleagues,</p>
-                                    <p
+                                    <p class="hero_section_text"
                                         style="font-weight: 400; font-size: 14px; line-height: 150%; padding-top: 10px; max-width: 530px; margin-left: auto; margin-right: auto; padding-bottom: 30px;">
                                         As a doctor, father, and patient, I've experienced healthcare from both sides of
                                         the table. We all know the struggle – juggling busy schedules, managing patient
@@ -714,7 +737,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                         <td>
                                             <p style="color: white; padding-left: 12px;">Health Summary
                                             </p>
-                                            <p
+                                            <p class="max_w_225"
                                                 style=" padding-top: 8px; max-width: 253px; margin: auto; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%;">
                                                 So your patients are
                                                 always prepared for
@@ -723,7 +746,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                         </td>
                                         <td style="padding-right: 12px;">
                                             <p style="color: white; padding-left: 11px;">Mednotes</p>
-                                            <p
+                                            <p class="max_w_225"
                                                 style="padding-top: 8px; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%; max-width: 253px; margin: auto;">
                                                 So your patients can create their brief notes on
                                                 treatments,
@@ -752,7 +775,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                     <tr>
                                         <td>
                                             <p style="color: white; padding-left: 12px;">Diary</p>
-                                            <p
+                                            <p class="max_w_225"
                                                 style=" padding-top: 8px; max-width: 253px; margin: auto; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%;">
                                                 So your patients can log, track and report symptoms,
                                                 pain, blood
@@ -760,7 +783,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                         </td>
                                         <td style="padding-right: 12px;">
                                             <p style="color: white; padding-left: 11px;">Documents</p>
-                                            <p
+                                            <p class="max_w_225"
                                                 style="padding-top: 8px; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%; max-width: 253px; margin: auto;">
                                                 So your patients can keep important test results,
                                                 reports, ECGs,
@@ -775,7 +798,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                 <table style="width: 100%;">
                                     <tr>
                                         <td style="padding-top: 37px;">
-                                            <p
+                                            <p class="max_w_350"
                                                 style="max-width: 491px; margin: 0 auto; color: white; border: 1px solid #FFFFFF29;padding: 16px 19px 16px 20px; text-align: center; font-size: 14px; font-weight: 400;line-height: 150%; border-radius: 10px;">
                                                 *Stewart MA.
                                                 Effective
@@ -786,12 +809,15 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                     </tr>
                                     <tr>
                                         <td style="padding-top: 16px;">
-                                            <p
-                                                style="max-width: 474px; margin: 0 auto; color: white; border: 1px solid #FFFFFF29;padding: 16px 27px 16px 29px; text-align: center; font-size: 14px; font-weight: 400;line-height: 150%; border-radius: 10px;">
+                                            <p class="max_w_340"
+                                                style="max-width: 474px; margin: 0 auto; color: #D9DDEC; border: 1px solid #FFFFFF29;padding: 16px 27px 16px 29px; text-align: center; font-size: 14px; font-weight: 400;line-height: 150%; border-radius: 10px;">
                                                 If you are interested in having an educational session
                                                 on the CDMpal
                                                 app and its use in your clinical care, please contact
-                                                admin@cdmpal.com.au or Dan@moderninnovations.com.au </p>
+                                                <span style=" color: white;">
+                                                    admin@cdmpal.com.au</span>
+                                                or
+                                                <span style=" color: white;">Dan@moderninnovations.com.au</span> </p>
                                         </td>
                                     </tr>
                                 </table>
