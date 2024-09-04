@@ -20,9 +20,68 @@
             font-family: "Roboto", sans-serif;
         }
 
+        /* ==hero== */
+
         .hero_section_boxes {
             display: grid;
             gap: 24px;
+        }
+
+        .grid_item1 {
+            grid-column: 1/2;
+        }
+
+        .grid_item2 {
+            grid-column: 2/2;
+        }
+
+        /* ==medical index== */
+        .software_section {
+            display: grid;
+            gap: 14px;
+        }
+
+        .software_card1 {
+            grid-column: 1/2;
+            grid-row: 1/1;
+            margin: auto;
+        }
+
+        .software_card2 {
+            grid-column: 2/3;
+            grid-row: 1/1;
+            margin: auto;
+        }
+
+        .software_card3 {
+            grid-column: 3/3;
+            grid-row: 1/1;
+            margin: auto;
+        }
+
+        /* =================footer=============== */
+        .font_16_600 {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 117%;
+        }
+
+        .font_14_400 {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 150%;
+        }
+
+        .font_14_500 {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 150%;
+        }
+
+        .font_24_600 {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 140%;
         }
 
         @media (max-width:576px) {
@@ -137,136 +196,114 @@
                 margin: auto;
             }
 
-            .font_24_600 {
-                font-size: 24px;
-                font-weight: 600;
-                line-height: 140%;
+
+
+        }
+
+        /* patients branch */
+
+        @media (max-width:649px) {
+            .d-none {
+                display: none !important;
             }
 
-            /* =================footer=============== */
-            .font_16_600 {
-                font-size: 16px;
-                font-weight: 600;
-                line-height: 117%;
+            .mb-12 {
+                margin-bottom: 12px;
             }
 
-            .font_14_400 {
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 150%;
+            .d-block {
+                display: block !important;
             }
 
-            .font_14_500 {
-                font-size: 14px;
-                font-weight: 500;
-                line-height: 150%;
+            .display-inline-grid {
+                display: inline-grid !important;
             }
 
-            /* patients branch */
-
-            @media (max-width:649px) {
-                .d-none {
-                    display: none !important;
-                }
-
-                .mb-12 {
-                    margin-bottom: 12px;
-                }
-
-                .d-block {
-                    display: block !important;
-                }
-
-                .display-inline-grid {
-                    display: inline-grid !important;
-                }
-
-                .p0 {
-                    padding: 0 !important;
-                }
-
-                .mx-auto {
-                    margin-left: auto !important;
-                    margin-right: auto !important;
-                }
-
-                .text-center {
-                    text-align: center !important;
-                }
+            .p0 {
+                padding: 0 !important;
             }
 
-            /* paitents branch-over */
+            .mx-auto {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .text-center {
+                text-align: center !important;
+            }
+        }
+
+        /* paitents branch-over */
 
 
-            @media (max-width:568px) {
+        @media (max-width:568px) {
 
-                /* hero */
-                .hero_section_boxes {
-                    display: grid;
-
-                }
-
-                .grid_item1 {
-                    grid-column: 1/2;
-                    grid-row: 1/1;
-                }
-
-                .grid_item2 {
-                    grid-column: 1/2;
-                    grid-row: 2/2;
-                }
-
-                .px-35 {
-                    padding-left: 35px !important;
-                    padding-right: 35px !important;
-                }
-
-                /* ==medical.html== */
-                .px_15 {
-                    padding-left: 15px;
-                    padding-right: 15px;
-                }
-
-                .software_section {
-                    display: grid;
-                    grid-template-columns: auto;
-                    grid-template-rows: auto;
-                }
-
-                .software_card1 {
-                    grid-column: 1/2;
-                    grid-row: 1/1;
-                }
-
-                .software_card2 {
-                    grid-column: 1/2;
-                    grid-row: 2/2;
-                }
-
-                .software_card3 {
-                    grid-column: 1/2;
-                    grid-row: 3/3;
-                }
-
-                /* ==============footer=============== */
-                .padding_top_30 {
-                    padding-top: 30px !important;
-                }
-
-                .margin_bottom_10 {
-                    margin-bottom: 10px !important;
-                }
-
-                .padding_bottom_20 {
-                    padding-bottom: 20px !important;
-                }
-
-                .padding_20 {
-                    padding-left: 20px !important;
-                    padding-right: 20px !important;
-                }
+            /* hero */
+            .hero_section_boxes {
+                display: grid;
 
             }
+
+            .grid_item1 {
+                grid-column: 1/2;
+                grid-row: 1/1;
+            }
+
+            .grid_item2 {
+                grid-column: 1/2;
+                grid-row: 2/2;
+            }
+
+            .px-35 {
+                padding-left: 35px !important;
+                padding-right: 35px !important;
+            }
+
+            /* ==medical.html== */
+            .px_15 {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .software_section {
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: auto;
+            }
+
+            .software_card1 {
+                grid-column: 1/2;
+                grid-row: 1/1;
+            }
+
+            .software_card2 {
+                grid-column: 1/2;
+                grid-row: 2/2;
+            }
+
+            .software_card3 {
+                grid-column: 1/2;
+                grid-row: 3/3;
+            }
+
+            /* ==============footer=============== */
+            .padding_top_30 {
+                padding-top: 30px !important;
+            }
+
+            .margin_bottom_10 {
+                margin-bottom: 10px !important;
+            }
+
+            .padding_bottom_20 {
+                padding-bottom: 20px !important;
+            }
+
+            .padding_20 {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
         }
     </style>
 </head>
@@ -351,7 +388,7 @@
                                                         </td>
                                                         <td>
                                                             <p
-                                                                style="font-size: 14px; font-weight: 400; line-height: 117%; color: black; opacity: 80%;  padding-top: 23px; padding-bottom: 23px; padding-left: 14px; padding-right: 194px;">
+                                                                style="font-size: 14px; font-weight: 400; line-height: 117%; color: black; opacity: 80%;  padding-top: 14px; padding-bottom: 14px; padding-left: 14px; padding-right: 194px;">
                                                                 Track symptoms and medications with ease</p>
                                                         </td>
                                             </td>
@@ -472,10 +509,11 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
     </tr>
     </tbody>
     </table>
-    <table style="max-width: 650px; background-color: white; margin-left: auto; margin-right: auto;">
+    <table cellpadding="0" cellspacing="0" border="0"
+        style="max-width: 650px; background-color: white; margin-left: auto; margin-right: auto; border-collapse: collapse;">
         <tr style="width: 100%;">
             <td style="width: 100%;">
-                <table style="width: 100%;">
+                <table style="width: 100%; border-collapse: collapse;">
                     <tbody>
                         <tr>
                             <td>
@@ -635,7 +673,7 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
         </tr>
     </table>
     <table cellpadding="0" cellspacing="0" border="0"
-        style="width: 100%; max-width: 650px; margin: 0 auto; background-color:white;">
+        style="width: 100%; max-width: 650px; margin: 0 auto; background-color:white; padding-top: 70px;">
         <tbody>
             <tr>
                 <td>
