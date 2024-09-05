@@ -14,68 +14,83 @@
             padding: 0;
             text-decoration: none;
         }
+
         body {
             font-family: "Roboto", sans-serif;
         }
+
         /* ==hero== */
         .hero_section_boxes {
             display: grid;
             gap: 24px;
         }
+
         .grid_item1 {
             grid-column: 1/2;
         }
+
         .grid_item2 {
             grid-column: 2/2;
         }
+
         /* ==medical index== */
         .software_section {
             display: grid;
             gap: 14px;
         }
+
         .software_card1 {
             grid-column: 1/2;
             grid-row: 1/1;
             margin: auto;
         }
+
         .software_card2 {
             grid-column: 2/3;
             grid-row: 1/1;
             margin: auto;
         }
+
         .software_card3 {
             grid-column: 3/3;
             grid-row: 1/1;
             margin: auto;
         }
+
         /* =================footer=============== */
         .font_16_600 {
             font-size: 16px;
             font-weight: 600;
             line-height: 117%;
         }
+
         .font_14_400 {
             font-size: 14px;
             font-weight: 400;
             line-height: 150%;
         }
+
         .font_14_500 {
             font-size: 14px;
             font-weight: 500;
             line-height: 150%;
         }
+
         .font_24_600 {
             font-size: 24px;
             font-weight: 600;
             line-height: 140%;
         }
+
         @media (max-width:576px) {
             .hero_section_boxes {
                 display: grid;
             }
+
             .grid_item1 {
                 grid-column: 1/2;
             }
+
             .grid_item2 {
                 grid-column: 2/2;
             }
@@ -298,6 +313,14 @@
                 padding-left: 20px !important;
                 padding-right: 20px !important;
             }
+
+            .d_inline_grid {
+                display: inline-grid !important;
+            }
+
+            .w_sm_100 {
+                width: 100% !important;
+            }
         }
     </style>
 </head>
@@ -446,40 +469,53 @@
     <tr>
         <td>
             <table
-                style="max-width: 530px; margin-left: auto; margin-right: auto;   margin-top: 22px; margin-bottom: 30px;">
-                <tr class="hero_section_boxes">
-                    <td class="grid_item1" style="padding: 12px 10px; background: #EBF9FD;
- border-radius: 10px; ">
-                        <p style="
-font-size: 16px;
-font-weight: 500;
-line-height: 130%;
-text-align: left;
-color: #3CC0EC;
-">That's the power of CDMpal</p>
-                        <p style="max-width: 229px; opacity: 80%;
-font-size: 14px;
-font-weight: 400;
-line-height: 150%;
-text-align: left;
-padding-top: 8px;
-">Our user-friendly app puts patients in control of their health journey, saving them time and reducing stress.</p>
+                style="max-width: 540px; width: 100%;  margin-left: auto; margin-right: auto;   margin-top: 22px; margin-bottom: 30px;">
+                <tr>
+                    <td class="d_inline_grid w_sm_100" style="text-align: start;">
+                        <table style="text-align: start;">
+                            <tr>
+                                <td style="padding: 12px 10px; background: #EBF9FD;
+                            border-radius: 10px; width: 233px; ">
+                                    <p style="
+                           font-size: 16px;
+                           font-weight: 500;
+                           line-height: 130%;
+                           text-align: left;
+                           color: #3CC0EC;
+                           ">That's the power of CDMpal</p>
+                                    <p style="max-width: 253px; opacity: 80%;
+                           font-size: 14px;
+                           font-weight: 400;
+                           line-height: 150%;
+                           text-align: left;
+                           padding-top: 8px;
+                           ">Our user-friendly app puts patients in control of their health journey, saving them time
+                                        and reducing stress.</p>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
-                    <td class="grid_item2" style="padding: 12px; background:#ECEEF5;
- border-radius: 10px;">
-                        <p style="font-size: 16px;
+                    <td class="d_inline_grid w_sm_100" style="text-align: end;">
+                        <table style="text-align: end; width: 100%;">
+                            <tr>
+                                <td style="padding: 12px; background:#ECEEF5;
+ border-radius: 10px; width: 213px;">
+                                    <p style="font-size: 16px;
 font-weight: 500;
 line-height: 130%;
 text-align: left;
 color:#3F559E;
 max-width: 204px;">Join the movement towards patient-centered care</p>
-                        <p style="max-width: 229px; opacity: 80%;
+                                    <p style="max-width: 229px; opacity: 80%;
 font-size: 14px;
 font-weight: 400;
 line-height: 150%;
 text-align: left;
 color: #000;
 padding-top: 8px;">Empower your patients with CDMpal.</p>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
             </table>
@@ -775,7 +811,8 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                                                 <span style=" color: white;">
                                                     admin@cdmpal.com.au</span>
                                                 or
-                                                <span style=" color: white;">Dan@moderninnovations.com.au</span> </p>
+                                                <span style=" color: white;">Dan@moderninnovations.com.au</span>
+                                            </p>
                                         </td>
                                     </tr>
                                 </table>
@@ -803,37 +840,55 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
                         </tr>
                         <tr>
                             <td>
-                                <table style="width: 100%; max-width: 530px; margin: 0 auto; ">
-                                    <tr class="software_section">
-                                        <td class="software_card1"
-                                            style="border-radius: 10px; border: 1px solid #00000029; padding:16px 10px 66px 10px;">
-                                            <p
-                                                style="font-weight: 400; font-size: 14px; line-height: 150%; max-width: 147px;">
-                                                CDMpal for
-                                                Pain Management
-                                                <span style="font-weight: 500; display: block;">Reduce
-                                                    guesswork</span>
-                                            </p>
+                                <table style="width: 100%; max-width: 530px; margin: 0 auto; text-align: center; ">
+                                    <tr class=" d_inline_grid">
+                                        <td class=" w_sm_100">
+                                            <table>
+                                                <tr>
+                                                    <td
+                                                        style="width: 145px; border-radius: 10px; border: 1px solid #00000029; padding:16px 10px 66px 10px;">
+                                                        <p
+                                                            style="font-weight: 400; font-size: 14px; line-height: 150%; max-width: 147px;">
+                                                            CDMpal for
+                                                            Pain Management
+                                                            <span style="font-weight: 700; display: block;">Reduce
+                                                                guesswork</span>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
                                         </td>
-                                        <td class="software_card2"
-                                            style="border-radius: 10px; border: 1px solid #00000029; padding:16px 10px 24px 10px;">
-                                            <p
-                                                style="font-weight: 400; font-size: 14px; line-height: 150%; max-width: 147px;">
-                                                CDMpal for CKD, CCF, IHD, Diabetes
-                                                <span style="font-weight: 500; display: block;">Track
-                                                    and monitor home
-                                                    recordings in one place</span>
-                                            </p>
+                                        <td class=" w_sm_100">
+                                            <table>
+                                                <tr>
+                                                    <td
+                                                        style=" border-radius: 10px; border: 1px solid #00000029; padding:16px 10px 24px 10px;">
+                                                        <p
+                                                            style="font-weight: 400; font-size: 14px; line-height: 150%; max-width: 147px;">
+                                                            CDMpal for CKD, CCF, IHD, Diabetes
+                                                            <span style="font-weight: 700; display: block;">Track
+                                                                and monitor home
+                                                                recordings in one place</span>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
                                         </td>
-                                        <td class="software_card3"
-                                            style="border-radius: 10px; border: 1px solid #00000029; padding:16px 10px 24px 10px;">
-                                            <p
-                                                style="font-weight: 400; font-size: 14px; line-height: 150%; max-width: 147px;">
-                                                CDMpal for paediatrics, rheumatology and neurology care
-                                                <span style="font-weight: 500; display: block;"> Monitor
-                                                    progress
-                                                    easily</span>
-                                            </p>
+                                        <td class=" w_sm_100">
+                                            <table>
+                                                <tr>
+                                                    <td
+                                                        style=" border-radius: 10px; border: 1px solid #00000029; padding:16px 10px 24px 10px;">
+                                                        <p
+                                                            style="font-weight: 400; font-size: 14px; line-height: 150%; max-width: 147px;">
+                                                            CDMpal for paediatrics, rheumatology and neurology care
+                                                            <span style="font-weight: 700; display: block;"> Monitor
+                                                                progress
+                                                                easily</span>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
                                         </td>
                                     </tr>
                                 </table>
@@ -931,4 +986,5 @@ padding-top: 8px;">Empower your patients with CDMpal.</p>
     </tbody>
     </table>
 </body>
+
 </html>
