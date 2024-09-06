@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cd-mpal</title>
-    <link rel="shortcut icon" href="/kit-icon.png" type="image/x-icon">
+    <title>CDMpal</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -58,10 +58,16 @@
         } */
 
         /* =================footer=============== */
-        .font_16_600 {
-            font-size: 16px;
+        .font_24_600 {
+            font-size: 24px;
             font-weight: 600;
-            line-height: 117%;
+            line-height: 140%;
+        }
+
+        .font_20_700 {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 130%;
         }
 
         .font_14_400 {
@@ -74,12 +80,6 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 150%;
-        }
-
-        .font_24_600 {
-            font-size: 24px;
-            font-weight: 600;
-            line-height: 140%;
         }
 
         @media (max-width:576px) {
@@ -131,29 +131,6 @@
                 grid-column: 2/2;
             }
 
-            /* ==medical.html== */
-            .software_section {
-                display: grid;
-                gap: 14px;
-            }
-
-            .software_card1 {
-                grid-column: 1/2;
-                grid-row: 1/1;
-                margin: auto;
-            }
-
-            .software_card2 {
-                grid-column: 2/3;
-                grid-row: 1/1;
-                margin: auto;
-            }
-
-            .software_card3 {
-                grid-column: 3/3;
-                grid-row: 1/1;
-                margin: auto;
-            }
         }
 
         /* patients branch */
@@ -203,29 +180,6 @@
                 grid-column: 2/2;
             }
 
-            /* ==medical.html== */
-            .software_section {
-                display: grid;
-                gap: 14px;
-            }
-
-            .software_card1 {
-                grid-column: 1/2;
-                grid-row: 1/1;
-                margin: auto;
-            }
-
-            .software_card2 {
-                grid-column: 2/3;
-                grid-row: 1/1;
-                margin: auto;
-            }
-
-            .software_card3 {
-                grid-column: 3/3;
-                grid-row: 1/1;
-                margin: auto;
-            }
         }
 
         /* patients branch */
@@ -294,42 +248,44 @@
             }
 
             /* ==medical.html== */
-            .px_15 {
-                padding-left: 15px;
-                padding-right: 15px;
-            }
 
-            .software_section {
-                display: grid;
+            .inline_grid {
+                display: inline-grid !important;
                 grid-template-columns: auto;
                 grid-template-rows: auto;
+                width: 100%;
             }
 
-            .software_card1 {
-                grid-column: 1/2;
+            .item_1 {
+                grid-column: 1/1 !important;
+                grid-row: 1/1 !important;
+                padding-left: 0 !important;
+            }
+
+            .item_2 {
+                grid-column: 1/1 !important;
+                grid-row: 2/2 !important;
+                padding-top: 25px !important;
+            }
+
+            .item_3 {
+                grid-column: 1/1;
                 grid-row: 1/1;
+                padding-left: 0 !important;
             }
 
-            .software_card2 {
-                grid-column: 1/2;
+            .item_4 {
+                grid-column: 1/1;
                 grid-row: 2/2;
+                transform: translate(0, -25%) !important;
             }
 
-            .software_card3 {
-                grid-column: 1/2;
-                grid-row: 3/3;
+            .w_360 {
+                max-width: 360px !important;
             }
 
-            .max_w_225 {
-                max-width: 225px !important;
-            }
-
-            .max_w_340 {
-                max-width: 340px !important;
-            }
-
-            .max_w_350 {
-                max-width: 350px !important;
+            .max_w_300 {
+                max-width: 300px !important;
             }
 
             /* ==============footer=============== */
@@ -779,241 +735,234 @@
         </tr>
     </table>
     <!-- ----- akash-------- -->
-    <table cellpadding="0" cellspacing="0" border="0"
-        style="width: 100%; max-width: 650px; margin: 0 auto; background-color:white; padding-top: 70px;">
+    <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; background-color: #E4E4E4;">
         <tbody>
             <tr>
-                <td>
-                    <table style="background-color: #3F559E; width: 100%; padding-top: 47px; padding-bottom:48px;">
-                        <tr>
-                            <td>
-                                <table style="width: 100%;">
-                                    <tr>
-                                        <td>
-                                            <p
-                                                style="max-width: 310px; font-size: 24px; font-weight: 600; line-height: 140%; margin: auto; text-align: center; color: white;">
-                                                CDMpal: Medical
-                                                Software For
-                                                Individuals and Families
-                                            </p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-top: 10px; padding-bottom: 40px;">
-                                            <p
-                                                style="opacity: 90%; color: white; max-width: 456px; font-size: 14px; font-weight: 400; line-height: 150%; margin: auto; text-align: center;">
-                                                CDMpal is not just another App, it is a mini medical
-                                                software
-                                                specially designed
-                                                for non-medical Individuals and families so they can
-                                                keep, track,
-                                                and produce
-                                                vital health information anywhere anytime.</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding-left: 60px;padding-right: 20px;">
-                                <table style="width: 100%;">
-                                    <tr>
-                                        <td>
-                                            <p style="color: white; padding-left: 12px;">Health Summary
-                                            </p>
-                                            <p class="max_w_225"
-                                                style=" padding-top: 8px; max-width: 253px; margin: auto; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%;">
-                                                So your patients are
-                                                always prepared for
-                                                travel, emergencies and dealing with
-                                                multiple practitioners.</p>
-                                        </td>
-                                        <td style="padding-right: 12px;">
-                                            <p style="color: white; padding-left: 11px;">Mednotes</p>
-                                            <p class="max_w_225"
-                                                style="padding-top: 8px; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%; max-width: 253px; margin: auto;">
-                                                So your patients can create their brief notes on
-                                                treatments,
-                                                procedures, instructions and any important health
-                                                events.</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <table style="width: 100%;">
-                                    <tr>
-                                        <td style=" text-align: center; padding-top: 16px;padding-bottom: 16px;">
-                                            <img class="px_15" style="max-width: 530px; "
-                                                src="https://i.postimg.cc/P5rYGYPb/software.png" alt="">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding-left: 60px;padding-right: 20px;">
-                                <table style="width: 100%;">
-                                    <tr>
-                                        <td>
-                                            <p style="color: white; padding-left: 12px;">Diary</p>
-                                            <p class="max_w_225"
-                                                style=" padding-top: 8px; max-width: 253px; margin: auto; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%;">
-                                                So your patients can log, track and report symptoms,
-                                                pain, blood
-                                                pressure, diet, weight and blood sugar series.</p>
-                                        </td>
-                                        <td style="padding-right: 12px;">
-                                            <p style="color: white; padding-left: 11px;">Documents</p>
-                                            <p class="max_w_225"
-                                                style="padding-top: 8px; color: white; font-size: 14px; font-weight: 400; opacity: 80%; line-height: 150%; max-width: 253px; margin: auto;">
-                                                So your patients can keep important test results,
-                                                reports, ECGs,
-                                                legal documents and all in one place.</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <table style="width: 100%;">
-                                    <tr>
-                                        <td style="padding-top: 37px;">
-                                            <p class="max_w_350"
-                                                style="max-width: 491px; margin: 0 auto; color: white; border: 1px solid #FFFFFF29;padding: 16px 19px 16px 20px; text-align: center; font-size: 14px; font-weight: 400;line-height: 150%; border-radius: 10px;">
-                                                *Stewart MA.
-                                                Effective
-                                                physician-patient
-                                                communication and health outcomes: a review. CMAJ
-                                                1995;152(9):1,423-1,433</p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-top: 16px;">
-                                            <p class="max_w_340"
-                                                style="max-width: 474px; margin: 0 auto; color: #D9DDEC; border: 1px solid #FFFFFF29;padding: 16px 27px 16px 29px; text-align: center; font-size: 14px; font-weight: 400;line-height: 150%; border-radius: 10px;">
-                                                If you are interested in having an educational session
-                                                on the CDMpal
-                                                app and its use in your clinical care, please contact
-                                                <span style=" color: white;">
-                                                    admin@cdmpal.com.au</span>
-                                                or
-                                                <span style=" color: white;">Dan@moderninnovations.com.au</span>
-                                            </p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
+                <td cellpadding="0" cellspacing="0" border="0" style="width: 100%;" class="py_40">
+                    <table cellpadding="0" cellspacing="0" border="0"
+                        style="width: 100%; max-width: 650px; margin: 0 auto; background-color:white; padding-top: 80px;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table style="width: 100%; margin: auto;">
+                                        <tr>
+                                            <td>
+                                                <p
+                                                    style="text-align: center; max-width: 310px; font-size: 24px; font-weight: 600; line-height: 140%; margin: auto; text-align: center; ">
+                                                    CDMpal: Medical
+                                                    Software For
+                                                    <span style="color: #3CC0EC;">Individuals and Families</span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-top: 10px;">
+                                                <p
+                                                    style="  max-width: 455px; font-size: 14px; font-weight: 400; line-height: 150%; margin: auto; text-align: center;">
+                                                    CDMpal is not just another App, it is a mini medical
+                                                    software
+                                                    specially designed
+                                                    for non-medical Individuals and families so they can
+                                                    keep, track,
+                                                    and produce
+                                                    vital health information anywhere anytime.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style=" background-image: url('https://i.postimg.cc/HkLNR8PQ/layre.png') ; background-repeat: no-repeat; background-size: cover; background-position: center;">
+                                    <table
+                                        style=" padding-top: 40px; padding-bottom: 30px; width: 100%; max-width: 650px;  background-image: url('https://i.postimg.cc/FKy0xDgG/bg.png') ; background-repeat: no-repeat; background-size: 382px 331px; background-position: center;">
+                                        <tr class="inline_grid">
+                                            <td class="item_1" style="padding-left: 24px;">
+                                                <table class="w_360"
+                                                    style="width: 100%; max-width: 253px; margin: auto; border: 1px solid #D6D6D6; padding: 14px; border-radius: 10px; background: white;">
+                                                    <tr>
+                                                        <td>
+                                                    <tr>
+                                                        <td>
+                                                            <table
+                                                                style=" text-align: center; margin: auto; width: 100%; padding-right: 20%;">
+                                                                <tr>
+                                                                    <td><img width="24px"
+                                                                            src="https://i.postimg.cc/W4Srqt71/health-Summary.png"
+                                                                            alt="img">
+                                                                    <td>
+                                                                        <p
+                                                                            style=" text-align:left; font-size: 16px; font-weight: 500; padding-bottom: 1px;">
+                                                                            Health Summary</p>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p class="max_w_300"
+                                                    style="max-width: 225px; margin: auto; font-size: 14px; font-weight: 400;line-height: 150%;">
+                                                    So your patients are always
+                                                    prepared for travel, emergencies and
+                                                    dealing with multiple practitioners.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="item_2" style="padding-top: 84px;">
+                                    <table class="w_360"
+                                        style="  background: white; width: 100%; max-width: 253px; margin: auto; border: 1px solid #D6D6D6; padding: 14px; border-radius: 10px;">
+                                        <tr>
+                                            <td style="max-width: 253px;">
+                                        <tr>
+                                            <td>
+                                                <table style=" text-align: center; margin: auto; width: 100%;">
+                                                    <tr>
+                                                        <td><img width="24px"
+                                                                src="https://i.postimg.cc/W4Srqt71/health-Summary.png"
+                                                                alt="img">
+                                                        <td>
+                                                            <p
+                                                                style=" text-align: left; font-size: 16px; font-weight: 500; padding-bottom: 1px;">
+                                                                Mednotes</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="max_w_300"
+                                        style="max-width: 225px; margin: auto; font-size: 14px; font-weight: 400;line-height: 150%;">
+                                        So your patients can create their brief notes on treatments, procedures,
+                                        instructions and any important health events.</p>
+                                </td>
+                            </tr>
                     </table>
+                </td>
+
+            </tr>
+            <tr class="inline_grid">
+                <td class="item_3" style="padding-left: 24px; padding-top: 227px;padding-bottom: 64px;">
+                    <table class="w_360"
+                        style=" background: white; width: 100%; max-width: 253px; margin: auto; border: 1px solid #D6D6D6; padding: 14px; border-radius: 10px;">
+                        <tr>
+                            <td style="max-width: 253px;">
+                        <tr>
+                            <td>
+                                <table style=" text-align: center; margin: auto; width: 100%;">
+                                    <tr>
+                                        <td><img width="24px" src="https://i.postimg.cc/W4Srqt71/health-Summary.png"
+                                                alt="img">
+                                        <td>
+                                            <p
+                                                style=" text-align: left; font-size: 16px; font-weight: 500; padding-bottom: 1px; ">
+                                                Diary</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <table style="width: 100%; padding-top: 65px; padding-bottom: 70px; ">
+                    <p class="max_w_300"
+                        style="max-width: 225px; margin: auto; font-size: 14px; font-weight: 400;line-height: 150%;">
+                        So your patients can log, track and report symptoms, pain, blood pressure, diet, weight and
+                        blood sugar series.</p>
+                </td>
+            </tr>
+    </table>
+    </td>
+    <td class="item_4" style=" transform: translate(0, 33%); padding-bottom: 30px;">
+        <table class="w_360"
+            style="  background: white; width: 100%; max-width: 253px; margin: auto; border: 1px solid #D6D6D6; padding: 14px; border-radius: 10px;">
+            <tr>
+                <td style="max-width: 253px;">
+            <tr>
+                <td>
+                    <table style=" text-align: center; margin: auto; width: 100%;">
                         <tr>
+                            <td><img width="24px" src="https://i.postimg.cc/W4Srqt71/health-Summary.png" alt="img">
                             <td>
-                                <table style="width: 100%;">
-                                    <tr>
-                                        <td style="padding-bottom: 30px;">
-                                            <p
-                                                style="max-width: 364px; font-size: 24px; font-weight: 600; line-height: 140%; margin: auto; text-align: center;">
-                                                DMpal: It is time to engage patients more in their
-                                                healthcare</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <table style="width: 100%; max-width: 530px; margin: 0 auto; text-align: center; ">
-                                    <tr class=" d_inline_grid">
-                                        <td class=" w_sm_100">
-                                            <table>
-                                                <tr>
-                                                    <td
-                                                        style="width: 145px; border-radius: 10px; border: 1px solid #00000029; padding:16px 10px 66px 10px;">
-                                                        <p
-                                                            style="font-weight: 400; font-size: 14px; line-height: 150%; max-width: 147px;">
-                                                            CDMpal for
-                                                            Pain Management
-                                                            <span style="font-weight: 700; display: block;">Reduce
-                                                                guesswork</span>
-                                                        </p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                        <td class=" w_sm_100">
-                                            <table>
-                                                <tr>
-                                                    <td
-                                                        style=" border-radius: 10px; border: 1px solid #00000029; padding:16px 10px 24px 10px;">
-                                                        <p
-                                                            style="font-weight: 400; font-size: 14px; line-height: 150%; max-width: 147px;">
-                                                            CDMpal for CKD, CCF, IHD, Diabetes
-                                                            <span style="font-weight: 700; display: block;">Track
-                                                                and monitor home
-                                                                recordings in one place</span>
-                                                        </p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                        <td class=" w_sm_100">
-                                            <table>
-                                                <tr>
-                                                    <td
-                                                        style=" border-radius: 10px; border: 1px solid #00000029; padding:16px 10px 24px 10px;">
-                                                        <p
-                                                            style="font-weight: 400; font-size: 14px; line-height: 150%; max-width: 147px;">
-                                                            CDMpal for paediatrics, rheumatology and neurology care
-                                                            <span style="font-weight: 700; display: block;"> Monitor
-                                                                progress
-                                                                easily</span>
-                                                        </p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding-top: 24px;">
-                                <p style="font-size: 14px; font-weight: 400;line-height: 117%; text-align: center;">
-                                    CDMpal
-                                    for treatment
-                                    compliance, reduce no-shows and better
-                                    communications</p>
+                                <p style="font-size: 16px; font-weight: 500; padding-bottom: 1px; text-align: left;">
+                                    Documents</p>
                             </td>
                         </tr>
                     </table>
                 </td>
-            </tr>
-        </tbody>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <p class="max_w_300"
+                style="max-width: 225px; margin: auto; font-size: 14px; font-weight: 400;line-height: 150%;">So your
+                patients can keep important test results, reports, ECGs, legal documents and all in one place.
+            </p>
+        </td>
+    </tr>
+    </table>
+    </td>
+
+    </tr>
+    </table>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <table style="width: 100%; background: #46C3ED; padding-top: 30px;padding-bottom: 30px;">
+                <tr>
+                    <td>
+                        <p class="max_w_350"
+                            style=" max-width: 491px; margin: 0 auto; background: white; padding: 16px 19px 16px 20px; text-align: center; font-size: 14px; font-weight: 400;line-height: 150%; border-radius: 10px;">
+                            *Stewart MA.
+                            Effective
+                            physician-patient
+                            communication and health outcomes: a review. CMAJ
+                            1995;152(9):1,423-1,433</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-top: 16px;">
+                        <p class="max_w_340"
+                            style="max-width: 474px; margin: 0 auto; background: white; padding: 16px 27px 16px 29px; text-align: center; font-size: 14px; font-weight: 400;line-height: 150%; border-radius: 10px;">
+                            If you are interested in having an educational session
+                            on the CDMpal
+                            app and its use in your clinical care, please contact
+                            <a href="#" style="color: #3F559E;">
+                                admin@cdmpal.com.au</a>
+                            or
+                            <a href="#" style=" color: #3F559E;">Dan@moderninnovations.com.au</a> </p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    </table>
+    </td>
+    </tr>
+    </tbody>
     </table>
     <!-------------------footer------------  -->
     <table border="0" cellpadding="0" cellspacing="0" style="font-family: Roboto, sans-serif; width: 100%;">
         <tbody>
             <tr>
                 <td>
-                    <table class="table_max_width padding_20"
-                        style=" max-width: 650px; margin-left: auto; margin-right: auto; padding: 50px; width: 100%; background: #3CC0EC; color: white;">
+                    <table class="padding_top_30 padding_bottom_20" style=" max-width: 650px; margin-left: auto; margin-right: auto; padding: 78px 0; width: 100%; background: white;">
+
                         <tr>
                             <td>
-                                <p class="font_24_600" style="margin-bottom: 20px;">FAQs</p>
+                                <p class="font_24_600" style="margin-bottom: 37px; text-align: center;">FAQ<span style="color: #3CC0EC;">s</span></p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p class="font_16_600" style="margin-bottom: 10px;">Is CDMpal secure?</p>
-                                <p class="font_14_400" style="margin-bottom: 16px; opacity: 90%;">Absolutely, We
+                            <td class="padding_20" style="padding: 0 60px;">
+                                <p class="font_20_700" style="margin-bottom: 10px; color: #3F559E;">Is CDMpal secure?</p>
+                                <p class="font_14_400" style="margin-bottom: 9px; opacity: 70%;">Absolutely, We
                                     prioritise your privacy and
                                     security. CDMpal uses bank-level encryption to protect your personal and medical
                                     information, ensuring it remains confidential and secure. More importantly, your
@@ -1022,8 +971,13 @@
                         </tr>
                         <tr>
                             <td>
-                                <p class="font_16_600" style="margin-bottom: 10px;">Where is data stored?</p>
-                                <p class="font_14_400" style="margin-bottom: 16px; opacity: 90%;">Your data is stored in
+                                <img style="width: 100%;" src="https://i.postimg.cc/bvgjkfMT/dashed.png" alt="line">    
+                             </td>
+                        </tr>
+                        <tr>
+                            <td class="padding_20" style="padding: 0 60px;">
+                                <p class="font_20_700" style="margin-bottom: 10px; margin-top: 18px; color: #3F559E;">Where is data stored?</p>
+                                <p class="font_14_400" style="margin-bottom: 9px; opacity: 70%;">Your data is stored in
                                     AWS cloud storage
                                     facilities in Australia that are compliant with the highest data security standards
                                     and frameworks such as ISO 27017 for cloud security, ISO 27701 for privacy
@@ -1032,37 +986,44 @@
                         </tr>
                         <tr>
                             <td>
-                                <p class="font_16_600" style="margin-bottom: 10px;">Do you need Patient Health
+                               <img style="width: 100%;" src="https://i.postimg.cc/bvgjkfMT/dashed.png" alt="line">    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="padding_20" style="padding: 0 60px;">
+                                <p class="font_20_700" style="margin-bottom: 10px; margin-top: 18px; color: #3F559E;">Do you need Patient Health
                                     Identification in
                                     CDMpal?</p>
-                                <p class="font_14_400" style="margin-bottom: 16px; opacity: 90%;">CDMpal does not
+                                <p class="font_14_400" style="opacity: 70%;">CDMpal does not
                                     require any personal
                                     identifications making it one of the most secure systems available.</p>
                             </td>
                         </tr>
                     </table>
-                    <table class="table_max_width padding_top_30"
-                        style="max-width: 650px; margin-right: auto; margin-left: auto; background: white; width: 100%; padding-top:66px; padding-bottom: 15px;">
+                    <table class="padding_top_30" style=" background: #3F559E; max-width: 650px; margin-right: auto; margin-left: auto; width: 100%; padding-top:48px; padding-bottom: 10px;">
                         <tr>
                             <td style="text-align: center;">
+                                <a href="">
                                 <img class="margin_bottom_10" style="margin-bottom: 17px;"
-                                    src="https://i.postimg.cc/bwrXZVZZ/Group-2.png" alt="logo">
+                                    src="https://i.postimg.cc/mrF5ZNws/logo.png" alt="logo">
+                                </a>
                             </td>
                         </tr>
                         <tr>
                             <td class="padding_bottom_20" style="text-align: center; padding-bottom: 43px;">
-                                <a class="font_14_500" style="color: black; padding-right: 12px;" href="">Contact us</a>
-                                <a class="font_14_500" style="color: black; padding-left: 12px;" href="">Terms of
+                                <a class="font_14_500" style="color: white; padding-right: 12px;" href="">Contact us</a>
+                                <a class="font_14_500" style="color: white; padding-left: 12px;" href="">Terms of
                                     service</a>
                             </td>
                         </tr>
                         <tr>
-                            <td style="background: #E5E5E5; height: 1px; width: 100%;">
+                            <td style="background: #ffff; opacity: 10%; height: 1px; width: 100%;">
+
                             </td>
                         </tr>
                         <tr>
                             <td style="text-align: center; padding-top: 12px;">
-                                <a class="font_14_400" style="color: black; opacity: 50%;" href="">©CDMpal. All right
+                                <a class="font_14_400" style="color: white; opacity: 50%;" href="">©CDMpal. All right
                                     reserved</a>
                             </td>
                         </tr>
